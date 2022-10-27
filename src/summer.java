@@ -63,10 +63,10 @@ public class summer extends Thread {
         long start = System.currentTimeMillis();
         System.out.println(summer.sum(numberArr) + " (Single Thread)");
 
-        System.out.println("Single: " + (System.currentTimeMillis() - start) + " in milliseconds");
+        System.out.println("Single timing: " + (System.currentTimeMillis() - start) + " in milliseconds");
             start = System.currentTimeMillis();
             System.out.println(summer.parallelSum(numberArr) + " (Parallel Thread)");
-            System.out.println("Parallel: " + (System.currentTimeMillis() - start) + " in milliseconds");
+            System.out.println("Parallel timing: " + (System.currentTimeMillis() - start) + " in milliseconds");
 
         }
 
